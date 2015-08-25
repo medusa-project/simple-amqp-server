@@ -1,3 +1,11 @@
+# Deprecated!!
+
+Previously this worked with both jruby and MRI, but recent updates seems to have
+broken this. Since for our uses we require jruby for some servers and the 
+others are indifferent we've chosen to focus on that. An basically equivalent
+gem now lives at https://github.com/medusa-project/simple-amqp-server-jruby
+and development will be focused there.
+
 # SimpleAmqpServer
 
 This gem makes it easy to put up a server listening and responding to requests via AMQP. Simply subclass SimpleAmqpServer::Base,
